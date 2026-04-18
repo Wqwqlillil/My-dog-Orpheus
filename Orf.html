@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ 
+    <title>Orf</title>
+    <meta charset='windows-1251'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="[]" href="style.css" rel="stylesheet">
+    
+    <style>
+  p{font: 14pt Monotype Corsiva;}
+  span{color:#ff0000;
+  font: 16pt Monotype Corsiva;}
+  #Heading {background: #ff0000;
+  text-align: center;
+  padding: 5 px:
+  border: solid 5px red:
+  font: bold italic 40px Calibri;
+  color: rgb (0, 72, 255);}
+  IMG, Embed {border: solid 5px red;}
+  #animate {width: 300px;
+  height: 225px;}
+  </style>
+  </head>
+  <body>
+    <div>
+    <a href="#E">Перехід в кінець</a>
+<a name="s"></a>
+<h1 id="Heading">  Інформація про Орфея </h1>
+    <p>У нашій родині <span>Орфей</span> з’явився 14 лютого 2020 року. За цей час він дуже виріс,
+   перестав бути як хліб-кірпіч, зміцнів і став не просто домашнім улюбленцем, 
+   а справжнім другом, членом родини і захисником.</p>
+   <!-- Фото орфея-->
+   <div style="text-align: center;">
+   <img src="Orf8.jpg" alt="Орфей маленький" wigth="300" height="400">
+   </div>
+  <!-- Текст--> 
+  
+<p> <span>Орфей</span> має чорно-підпалий окрас, який є не дуже класичним для німецьких вівчарок.
+    Його шерсть виглядає густою та доглянутою, а забарвлення робить
+     його дуже красивим і благородним на вигляд. Особливо виразними є його очі
+      – вони розумні, уважні та завжди спостерігають за тим,
+       що відбувається навколо.</p>
+    
+       <p>Окремо варто сказати про його розміри. <span>Орфей</span> є дуже великим псом навіть для своєї породи.
+        Його вага становить 48 кілограмів, але при цьому він не є товстим – навпаки, він міцний, 
+        сильний і добре складений. Його тіло свідчить про хорошу фізичну форму,
+         витривалість і активний спосіб життя.</p>
+         <p>Завдяки своїм розмірам, зовнішньому вигляду та впевненій поведінці <span>Орфей</span> справляє
+          враження серйозного і сильного собаки. Проте для моєї родини він є не лише
+           захисником, а й добрим, вірним і люблячим другом.</p>
+           
+ <!-- Программа на javascript-->  
+ <SCRIPT type="text/javascript"> 
+ //Функція з таймером+зміна фото
+ windows.setInterval(new_frame,2500);
+ var inc=1;
+ var StartFrame=1;
+ var maxFrame=8;
+ //Функція зміни кадрів
+ function new_frame(){
+ //Показ поточого кадра з папки Orf photo
+ animate.src="Orfphoto/"+StartFrame+".jpg";
+ StartFrame+=inc;
+ if (StartFrame>maxFrame){
+ StartFrame=maxFrame;
+ inc=-1;
+ }
+ else
+ if (StartFrame==0)
+ {
+ StartFrame=1;
+ inc=1;
+ }
+ }
+   </SCRIPT> 
+   <p align ="center">
+<img id="animate" src ="Orfgif/.gif" width="400" height="450" border="10">
+</p>       
+<a href="#s">На початок</a>
+<a name="E"></a>
+    </div>
+
+    <script>
+      // code
+    </script>
+    <p><a href="Shepherd.html">Про породу німецька вівчарка</a></p>
+   <p><a href="UA.html">Німецька вівчарка в Україні</a></p>
+    <a href="index.html">На головну сторінку</a>
+    
+  </body>
+</html>
+
